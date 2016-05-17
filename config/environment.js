@@ -9,7 +9,7 @@ module.exports = function(environment) {
     torii: {
       sessionServiceName: 'session',
       providers: {
-        'spotify': {
+        spotify: {
           apiKey: 'c18d59022f254fd28accf49da5efe888',
           redirectUri: 'http://localhost:4200/oauth2-callback',
           showDialog: true,
@@ -53,6 +53,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     ENV.baseURL = '/gh-pages';
     ENV.locationType = 'hash';
+    ENV.torii.providers.spotify.redirectUri = 'http://ewoody.github.io/w_r_spotify/#/oauth2-callback';
   }
 
   return ENV;
