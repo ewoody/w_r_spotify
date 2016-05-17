@@ -100,14 +100,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/deploy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6180258">
+            <state vertical-scroll-proportion="0.0">
               <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/environment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.54077256">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,16 +127,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="69" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/album/route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/services/token.js" />
         <option value="$PROJECT_DIR$/app/login/template.hbs" />
         <option value="$PROJECT_DIR$/app/application/route.js" />
-        <option value="$PROJECT_DIR$/config/environment.js" />
         <option value="$PROJECT_DIR$/app/users/adapter.js" />
         <option value="$PROJECT_DIR$/app/login/route.js" />
         <option value="$PROJECT_DIR$/app/application/serializer.js" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/app/components/play-list/component.js" />
         <option value="$PROJECT_DIR$/app/models/track.js" />
         <option value="$PROJECT_DIR$/config/deploy.js" />
+        <option value="$PROJECT_DIR$/config/environment.js" />
       </list>
     </option>
   </component>
@@ -402,16 +402,6 @@
         <state vertical-scroll-proportion="-11.0">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,11 +655,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6180258">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54077256">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

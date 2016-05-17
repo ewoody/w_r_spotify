@@ -51,7 +51,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/gh-pages';
+    ENV.locationType = 'hash';
   }
 
   return ENV;
